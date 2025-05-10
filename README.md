@@ -11,7 +11,7 @@ A **fully open-source** chessboard that combines **precision gameplay** with **I
 ### **🔍 Core Features**  
 **✔ Smart Piece Detection**  
 - 64x **Hall effect sensors** (TLE493D)  
-- Magnetic pieces with **auto-calibration**  
+- Simple magnetic pieces  
 
 **✔ Interactive Guidance**  
 - 64x **addressable RGB LEDs** (WS2812B)  
