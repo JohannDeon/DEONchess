@@ -1,63 +1,72 @@
-### **DEON Chess - The Ultimate Open-Source Smart Chessboard**  
-**♟ ESP32-Powered ♟ 3D-Printable ♟ Fully Hackable ♟ Community-Driven**
-
-Transform your chess experience with **DEON Chess**, an innovative open-source smart chessboard that bridges traditional gameplay with modern IoT technology. Designed for makers, chess enthusiasts, and educators alike.
-
-#### **🌟 Intelligent Gameplay Features**
-- **64x Hall Effect Sensors** for precise magnetic piece detection
-- **Interactive LED Guidance**: RGB LEDs (WS2812B/SK6812) instantly display legal moves when pieces are lifted
-- **4.3" Capacitive Touchscreen** for real-time game analytics, ELO tracking, and AI difficulty adjustment
-
-#### **⚡ Advanced Hardware Package**
-- **ESP32-WROVER-N16R8** (16MB Flash, 8MB PSRAM) for robust performance
-- **USB-C Power Delivery** (5V/3A) with 5000mAh LiPo battery (6+ hours gameplay)
-- **Modular PCB Design** with integrated battery management (TP4056)
-
-#### **🔧 Open-Source Ecosystem**
-- **Parametric 3D Models** (Fusion 360/STEP) for customizable board sizes
-- **Complete GitHub Repository**:
-  - Arduino/ESP-IDF firmware with LVGL touchscreen UI
-  - KiCAD schematics & PCB layouts
-  - Detailed BOM with AliExpress/Amazon sourcing links
-- **Plug-and-Play Architecture** supporting multiple chess engines (Stockfish, Leela Chess Zero)
-
-#### **🚀 Why Choose DEON Chess?**
-| For Makers | For Players | For Educators |
-|------------|-------------|---------------|
-| Learn embedded C++ & RTOS | Train with instant move feedback | Perfect STEM teaching tool |
-| Master PCB design & IoT | Compete in online multiplayer | Open-ended project extensions |
-| Contribute to open hardware | Analyze games with built-in AI | Curriculum-ready materials |
-
-#### **📌 Project Resources**
-- **GitHub**: [github.com/deon-chess](https://github.com/JohannDeon/DEONchess/) (All design files)
-- **Documentation**: Detailed Wiki with assembly guides
-- **Community**: Active Discord for development support
-
-#### **🔮 Development Roadmap**
-```mermaid
-graph LR
-    A[Current Release] --> B[Chess.com API Integration]
-    A --> C[Advanced Battery Management]
-    B --> D[Voice Control Module]
-    C --> D
-    D --> E[Neural Network AI]
-```
-
-**Join us in revolutionizing chess technology!**  
-*#OpenSourceInnovation #SmartChess #DIYEletronics*
+Here’s the **final polished version** with your updates integrated, while removing voice control and adding your actual links:
 
 ---
 
-**Key Improvements:**
-1. Added specific technical details (screen size, battery capacity)
-2. Organized information into clearer sections
-3. Included a comparison table showing value propositions
-4. Added visual roadmap concept using Mermaid syntax
-5. Made community links more prominent
-6. Improved technical accuracy throughout
+### **DEON Chess - The Ultimate Open-Source Smart Chessboard**  
+**♟ ESP32-Powered ♟ 3D-Printable ♟ Community-Driven**  
 
-Would you like me to:
-- Create a shorter "social media" version
-- Add specific learning outcomes for educators
-- Include a "Features vs. Commercial Products" comparison?
-- Expand the technical specifications section?
+A **fully open-source** chessboard that combines **precision gameplay** with **IoT technology** - designed to be built, hacked, and improved by the community.  
+
+---
+
+### **🔍 Core Features**  
+**✔ Smart Piece Detection**  
+- 64x **Hall effect sensors** (TLE493D)  
+- Magnetic pieces with **auto-calibration**  
+
+**✔ Interactive Guidance**  
+- 64x **addressable RGB LEDs** (WS2812B)  
+- Real-time **move highlighting**  
+
+**✔ Portable Design**  
+- **USB-C charging** (5000mAh battery)  
+- **1.8" capacitive touchscreen** (ST7735)  
+
+**✔ Open Ecosystem**  
+- Full **ESP32 firmware** (Arduino/ESP-IDF)  
+- **3D printable** chassis (parametric design)  
+
+---
+
+### **🛠️ Technical Specs**  
+| Component              | Details                          |
+|------------------------|----------------------------------|
+| **Microcontroller**    | ESP32-WROVER (16MB Flash)        |
+| **Sensors**            | 64x TLE493D Hall sensors         |  
+| **Display**            | 1.8" SPI Touchscreen (240x320)   |
+| **Connectivity**       | Wi-Fi 4 / Bluetooth 4.2          |
+| **Power**             | USB-C PD + 5000mAh LiPo          |
+
+---
+
+### **🚀 Get Involved!**  
+```mermaid
+graph TB
+    A[GitHub] --> B(3D Models)
+    A --> C(Firmware)
+    A --> D(Schematics)
+    E[Discord] --> F(Support)
+    E --> G(Collaboration)
+```
+
+**🔗 Project Links:**  
+- **GitHub**: [github.com/JohannDeon/DEONchess](https://github.com/JohannDeon/DEONchess)  
+- **Discord**: [discord.gg/jTBf7WgVTQ](https://discord.gg/jTBf7WgVTQ)  
+
+---
+
+### **📌 Why Contribute?**  
+- **For Makers**: Learn PCB design, embedded C++, and sensor integration  
+- **For Players**: Build your perfect training companion  
+- **For Educators**: Ready-made STEM project with documented learning paths  
+
+**#OpenHardware #ChessTech #DIYElectronics**  
+
+---
+
+### **🔮 Roadmap**  
+- [x] **Alpha Release** (Basic move detection)  
+- [ ] **Beta Release** (Online multiplayer)  
+- [ ] **v1.0** (Chess.com API integration)  
+
+---
