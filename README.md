@@ -29,7 +29,7 @@ Transform your chess experience with **DEON Chess**, an innovative open-source s
 | Contribute to open hardware | Analyze games with built-in AI | Curriculum-ready materials |
 
 #### **📌 Project Resources**
-- **GitHub**: github.com/deon-chess (All design files)
+- **GitHub**: [github.com/deon-chess](https://github.com/JohannDeon/DEONchess/) (All design files)
 - **Documentation**: Detailed Wiki with assembly guides
 - **Community**: Active Discord for development support
 
