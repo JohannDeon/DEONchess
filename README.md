@@ -1,5 +1,3 @@
-Here’s the **final polished version** with your updates integrated, while removing voice control and adding your actual links:
-
 ---
 
 ### **DEON Chess - The Ultimate Open-Source Smart Chessboard**  
