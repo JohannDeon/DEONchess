@@ -19,7 +19,7 @@ A **fully open-source** chessboard that combines **precision gameplay** with **I
 
 **✔ Portable Design**  
 - **USB-C charging** (5000mAh battery)  
-- **1.8" capacitive touchscreen** (ST7735)  
+- **1.8" capacitive touchscreen** (ST7735) or other to define 
 
 **✔ Open Ecosystem**  
 - Full **ESP32 firmware** (Arduino/ESP-IDF)  
@@ -34,7 +34,7 @@ A **fully open-source** chessboard that combines **precision gameplay** with **I
 | **Sensors**            | 64x TLE493D Hall sensors         |  
 | **Display**            | 1.8" SPI Touchscreen (240x320)   |
 | **Connectivity**       | Wi-Fi 4 / Bluetooth 4.2          |
-| **Power**             | USB-C PD + 5000mAh LiPo          |
+| **Power**              | USB-C PD + 5000mAh LiPo          |
 
 ---
 
