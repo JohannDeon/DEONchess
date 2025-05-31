@@ -1,4 +1,4 @@
-
+<p align="center"><img src="deonchess.png" alt="project-image"></p>
 ---
 
 ### **DEON Chess - The Ultimate Open-Source Smart Chessboard**  
